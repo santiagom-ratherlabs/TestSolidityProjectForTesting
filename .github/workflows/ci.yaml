@@ -24,6 +24,7 @@ jobs:
           # All env variables are required
           # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TM_TOKEN_KEY: ${{ secrets.TM_TOKEN_KEY }}
+          TM_API_URL: "https://api.testmachine.ai"
       - name: Upload result
         uses: actions/upload-artifact@v3
         with:
